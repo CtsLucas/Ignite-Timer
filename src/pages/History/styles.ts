@@ -15,8 +15,8 @@ export const HistoryContainer = styled.main`
 
 export const HistoryList = styled.div`
   flex: 1;
-  margin-top: 2rem;
   overflow: auto;
+  margin-top: 2rem;
 
   table {
     width: 100%;
@@ -29,7 +29,7 @@ export const HistoryList = styled.div`
       text-align: left;
       color: ${({ theme }) => theme['gray-100']};
       font-size: 0.875rem;
-      line-height: 1.6rem;
+      line-height: 1.6;
 
       &:first-child {
         border-top-left-radius: 8px;
@@ -47,7 +47,7 @@ export const HistoryList = styled.div`
       border-top: 4px solid ${({ theme }) => theme['gray-800']};
       padding: 1rem;
       font-size: 0.875rem;
-      line-height: 1.6rem;
+      line-height: 1.6;
 
       &:first-child {
         width: 50%;
