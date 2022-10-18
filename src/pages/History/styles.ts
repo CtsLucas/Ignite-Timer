@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 export const HistoryContainer = styled.main`
+  height: 100%;
   flex: 1;
   padding: 3.5rem;
 
